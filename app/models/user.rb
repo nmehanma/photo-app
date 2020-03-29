@@ -6,4 +6,5 @@ class User < ApplicationRecord
   has_one :payment
   accepts_nested_attributes_for :payment
   has_many :images
+  # has_one_attached :profile_picture
 end

@@ -11,6 +11,7 @@ Rails.application.configure do
   config.eager_load = true
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.default_url_options = { :host => 'nmehanma-photo-app.herokuapp.com', :protocol => 'https'}
+  config.active_storage.service = :amazon
 
 
   # Full error reports are disabled and caching is turned on.
